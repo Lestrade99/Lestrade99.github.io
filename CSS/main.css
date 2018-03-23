@@ -1,0 +1,69 @@
+/*Логотип*/
+.logo {
+}
+/*Подвал*/
+#footer {
+	background: #1C1C1C;
+	width: 100%;
+	height: 15%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	color: #088A08;
+}
+/*Заголовки*/
+h1 {
+	text-align: center;
+	color: #088A08;
+	font-family: Florence, cursive;
+	font-variant: small-caps;
+}
+h2 {
+	text-indent: 25px;
+	color: #088A08;
+	font-family: Florence, cursive;
+	font-variant: small-caps;
+}
+h3 {
+	text-align: center;
+	color: black;
+	font-family: Florence, cursive;
+	font-variant: small-caps;
+}
+/*Начало; Левый блок страницы*/
+.main {
+	height: 400px; width: 300px;
+	background-color: #1C1C1C;
+	display: inline-table;
+	color: #088A08;
+}
+.leftblock {
+	display: table-cell;
+	vertical-align: top;
+}
+/*Конец; Левый блок страницы*/
+.by {
+	vertical-align: middle;
+}
+.main2 {
+	text-indent: 25px;
+	background-color: #ffffff;
+	display: inline-table;
+	color: black;
+}
+.text {
+	display: table-cell;
+	vertical-align: middle;
+}
+.back {
+	text-align=left;
+	color: #088A08;
+}
+table {
+	background: black;
+	color: white;
+}
+td {
+	background: black;
+}
