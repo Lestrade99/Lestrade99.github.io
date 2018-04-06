@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Рисование</title>
+</head>
+<body style="margin: 0;">
+
+	<canvas id="canvas" style="display: block;">Ваш браузер не поддерживается.</canvas>
+
+	<script>
+		var
+			canv = document.getElementById('canvas'),
+			ctx  = canv.getContext('2d');
+
+		canv.width  = window.innerWidth;
+		canv.height = window.innerHeight; 
+
+		//code
+
+		ctx.fillstyle = 'black';
+		// "Н"
+		ctx.fillRect(100, 100, 100, 400);
+					//x,   y, width, height
+		ctx.fillRect(200, 300, 100, 100);
+		ctx.fillRect(300, 100, 100, 400);
+		// "Р"
+		ctx.fillRect(500, 100, 100, 400);
+		ctx.fillRect(600, 100, 200, 100);
+		ctx.fillRect(700, 200, 100, 200);
+		ctx.fillRect(700, 300, -100, 100);
+		// "Т"
+		ctx.fillRect(900, 100, 300, 100);
+		ctx.fillRect(1000, 200, 100, 300);
+		// "К"
+		ctx.fillRect(1300, 100, 100, 400);
+		ctx.fillRect(1400, 300, 50, 50);
+		ctx.fillRect(1450, 350, 50, 50);
+		ctx.fillRect(1500, 400, 50, 50);
+		ctx.fillRect(1550, 450, 50, 50);
+		ctx.fillRect(1400, 250, 50, 50);
+		ctx.fillRect(1450, 200, 50, 50);
+		ctx.fillRect(1500, 150, 50, 50);
+		ctx.fillRect(1550, 100, 50, 50);
+	</script>
+
+</body>
+</html>
