@@ -12,7 +12,7 @@
 .by {
 	vertical-align: middle;
 }
-/*Headings*/
+/*Заголовки*/
 h1 {
 	text-align: center;
 	color: #088A08;
@@ -31,19 +31,19 @@ h3 {
 	font-family: Florence, cursive;
 	font-variant: small-caps;
 }
-/*Left block of the main page*/
+/*Левый блок главной страницы*/
 .main {
-	height: 400px; width: 300px;
+	height: 400px; width: 400px;
 	background-color: #1C1C1C;
 	display: inline-table;
 	color: #088A08;
-	margin-bottom: 20%;
+	margin-bottom: 10%;
 }
 .leftblock {
 	display: table-cell;
 	vertical-align: top;
 }
-/*Design of two page*/
+/*Оформление соседних страниц*/
 .main2 {
 	text-indent: 25px;
 	background-color: #ffffff;
@@ -53,43 +53,57 @@ h3 {
 	height: 75%; width: 75%;
 	margin-left: 12%;
 	font-family: Times New Roman;
-	font-variant: small-caps;
+	text-align: justify;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 .text {
 	display: table-cell;
 	vertical-align: middle;
 
 }
-/*Go back to the previous page*/
+/*Вернуться на предыдущую страницу*/
 .back {
 	text-align: left;
 	color: #088A08;
 }
-/*Design of the table*/
+/*Оформление таблицы*/
 table {
 	text-align: center;
 	background: white;
 	color: black;
 	border: ridge;
+	border-collapse: separate;
+	caption-side: top;
+	empty-cells: hide;
 }
-/*Design cells of the table*/
+/*Офоромление ячеек таблицы*/
 td {
 	border: ridge;
 	background: white;
+	text-align: center;
 }
-/*Design of the list*/
-ul.square {
+th {
+	text-align: center;
+}
+/*Оформление списка*/
+ul {
 	list-style-type: square;
-	color: red;
+	color: magenta;
 }
 .color {
-	color: red;
+	color: green;
 }
+/*Оформление изображений*/
 img {
 	height: 50%;
 	width: 50%;
 	vertical-align: middle;	
 }
+/*Оформление текста для grognak.html*/
 strong {
 	font-size: x-large;
+}
+nav {
+	text-align: center;
 }
