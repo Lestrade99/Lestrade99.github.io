@@ -1,0 +1,109 @@
+/*Подвал*/
+#footer {
+	background: #1C1C1C;
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	color: #088A08;
+}
+.by {
+	vertical-align: middle;
+}
+/*Заголовки*/
+h1 {
+	text-align: center;
+	color: #088A08;
+	font-family: Florence, cursive;
+	font-variant: small-caps;
+}
+h2 {
+	text-indent: 25px;
+	color: #088A08;
+	font-family: Florence, cursive;
+	font-variant: small-caps;
+}
+h3 {
+	text-align: center;
+	color: black;
+	font-family: Florence, cursive;
+	font-variant: small-caps;
+}
+/*Левый блок главной страницы*/
+.main {
+	height: 400px; width: 400px;
+	background-color: #1C1C1C;
+	display: inline-table;
+	color: #088A08;
+	margin-bottom: 10%;
+}
+.leftblock {
+	display: table-cell;
+	vertical-align: top;
+}
+/*Оформление соседних страниц*/
+.main2 {
+	text-indent: 25px;
+	background-color: #ffffff;
+	display: inline-table;
+	color: black;
+	border: groove;
+	height: 75%; width: 75%;
+	margin-left: 12%;
+	font-family: Times New Roman;
+	text-align: justify;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.text {
+	display: table-cell;
+	vertical-align: middle;
+
+}
+/*Вернуться на предыдущую страницу*/
+.back {
+	text-align: left;
+	color: #088A08;
+}
+/*Оформление таблицы*/
+table {
+	text-align: center;
+	background: white;
+	color: black;
+	border: ridge;
+	border-collapse: separate;
+	caption-side: top;
+	empty-cells: hide;
+}
+/*Офоромление ячеек таблицы*/
+td {
+	border: ridge;
+	background: white;
+	text-align: center;
+}
+th {
+	text-align: center;
+}
+/*Оформление списка*/
+ul {
+	list-style-type: square;
+	color: magenta;
+}
+.color {
+	color: green;
+}
+/*Оформление изображений*/
+img {
+	height: 50%;
+	width: 50%;
+	vertical-align: middle;	
+}
+/*Оформление текста для grognak.html*/
+strong {
+	font-size: x-large;
+}
+nav {
+	text-align: center;
+}
