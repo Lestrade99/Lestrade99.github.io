@@ -24,6 +24,7 @@ h2 {
 	color: #088A08;
 	font-family: Florence, cursive;
 	font-variant: small-caps;
+	text-align: center;
 }
 h3 {
 	text-align: center;
@@ -37,11 +38,11 @@ h3 {
 	background-color: #1C1C1C;
 	display: inline-table;
 	color: #088A08;
-	margin-bottom: 10%;
 }
 .leftblock {
 	display: table-cell;
 	vertical-align: top;
+	padding-right: 6px;
 }
 /*Оформление соседних страниц*/
 .main2 {
@@ -93,6 +94,7 @@ ul {
 }
 .color {
 	color: green;
+	text-decoration: none;
 }
 /*Оформление изображений*/
 img {
@@ -103,6 +105,42 @@ img {
 /*Оформление текста для grognak.html*/
 strong {
 	font-size: x-large;
+}
+/*Правый блок главной страницы*/
+.main3 {
+	height: 400px; width: 450px;
+	background-color: #1C1C1C;
+	display: inline-table;
+	color: #088A08;
+	margin-bottom: 10%;
+	position: fixed;
+	right: 5px;
+	top: 90px;
+}
+.rightblock {
+	display: table-cell;
+	vertical-align: top;
+}
+/*Центральный блок главной страницы*/
+.main4 {
+	text-indent: 25px;
+	background-color: #ffffff;
+	display: inline-table;
+	color: black;
+	border: groove;
+	height: 75%; width: 50%;
+	margin-left: 12%;
+	font-family: Times New Roman;
+	text-align: justify;
+	padding-left: 25px;
+	padding-right: 25px;
+	position: fixed;
+	top: 90px;
+	left: 200px;
+}
+.text2 {
+	display: table-cell;
+	vertical-align: middle;
 }
 nav {
 	text-align: center;
