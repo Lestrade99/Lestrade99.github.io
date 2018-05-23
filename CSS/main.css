@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	color: #F2F5A9
+}
+
+body { background: #F7FE2E }
+
+.clear-fix { clear: both }
+
+/*Шапка*/
+
+.header {
+	display: inline-table;
+	width: 100%;
+	min-height: 80px;
+	position: fixed;
+	left: 0;
+	top: 0
+}
+
+.inner-header {
+	display: table-cell;
+	background: #F2F2F2;
+	vertical-align: middle
+}
+
+/*Левый блок главной страницы*/
+
+.left-block {
+	display: inline-table;
+	min-height: 520px;
+	width: 25%;
+	float: left;
+	margin: 80px 0 0 0
+}
+.inner-left-block {
+	display: table-cell;
+	background-color: #5882FA;
+	vertical-align: top
+}
+/*Правый блок главной страницы*/
+
+.right-block {
+	display: inline-table;
+	min-height: 520px;
+	width: 20%;
+	float: right;
+	margin: 80px 0 0 0
+}
+
+.inner-right-block {
+	display: table-cell;
+	background-color: #5882FA;
+	padding-top: 40px
+}
+
+/*Подвал*/
+
+.footer {
+	display: inline-table;
+	width: 100%;
+	min-height: 80px;
+	position: fixed;
+	left: 0;
+	bottom: 0
+}
+
+.inner-footer {
+	display: table-cell;
+	background: #FA5858;
+	text-align: center;
+	vertical-align: middle
+}
+
+/*Оформление списка*/
+
+ul { list-style-type: none }
+
+li a { 
+	text-decoration: none;
+	font-family: sans-serif;
+	padding-right: 35px
+}
+
+li a:hover { 
+	color: #FA5882; 
+	font-weight: lighter; 
+	margin: 10px
+}
+
+/*Центральный блок главной страницы*/
+
+.center {
+	display: inline-table;
+	min-height: 520px; 
+	width: 55.1%;
+	margin: 80px 0 0 0;
+	float: left;
+	position: fixed;
+}
+.inner-center {
+	display: table-cell;
+	vertical-align: top;
+	background: #5858FA
+}
+
+hr {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border: 1.5px solid green
+}
+
+/*Заголовки*/
+
+h1 {
+	text-align: center;
+	font-family: sans-serif;
+	letter-spacing: -5px;
+	font-size: 45px
+}
+
+h2 {
+	font-family: sans-serif;
+	font-variant: small-caps;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px
+}
+
+.logo {
+	height: 1em;
+	width: 1em
+}
+
+img {
+	height: 150px;
+	width: 200px;
+	margin-top: -45px;
+	margin-left: -45px
+}

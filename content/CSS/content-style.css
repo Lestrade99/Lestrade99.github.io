@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	color: #DF7401
+}
+
+body { background: #F7FE2E }
+
+.center {
+	display: inline-table;
+	border: 10px groove #82FA58;
+	height: 75%; 
+	width: 75%;
+	margin-left: 12%
+}
+
+.inner-center {
+	text-indent: 25px;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: sans-serif;
+	background: #A9F5A9;
+	padding: 25px 25px 25px 25px
+}
+
+table {
+	display: inline-table;
+	background: #5858FA;
+	border: groove;
+	empty-cells: hide;
+	margin: 0 95px auto
+}
+
+td {
+	background: #5882FA;
+	color: #F4FA58
+}
+
+th { color: #F4FA58 }
+
+img {
+	height: 50%;
+	width: 50%;
+	vertical-align: middle;
+	-webkit-border-radius: 	50px 50px 50px 50px; 		/*Chrom и Safari*/
+	-moz-border-radius: 	50px 50px 50px 50px; 		/*Firefox*/
+	-o-border-radius: 		50px 50px 50px 50px; 		/*Opera*/
+	-ms-border-radius: 		50px 50px 50px 50px; 		/*Internet Explorer*/
+	margin-bottom: 25px;
+	margin-top: 25px	
+}
+
+/*Оформление текста для grognak.html*/
+
+strong {
+	font-size: x-large;
+}
+
+h3 {
+	font-family: sans-serif;
+	font-variant: small-caps;
+	padding: 10px 0 10px 0;
+	font-size: 25px;
+	text-align: center
+}
+
+a { 
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+a:hover { 
+	color: #FA5882; 
+	font-weight: lighter; 
+	margin: 10px
+}
+
+.header {
+	font-size: xx-large; 
+	text-align: center;
+	color: red;
+	padding: 10px 0 10px 0
+}
+
+hr {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border: 1.5px solid green
+}
